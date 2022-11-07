@@ -25,8 +25,7 @@ pipeline {
    sh "mvn sonar:sonar \
    -Dsonar.projectKey=Iheb \
    -Dsonar.host.url=http://192.168.100.2:9000 \
-   -Dsonar.login=admin
-   -Dsonar.password=vagrant"
+   -Dsonar.login=b14f2e7630f5f10c92fa8bb7b93c76d30994bd51"
   }
 }
  }
